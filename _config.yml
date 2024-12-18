@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: 海底两万里工作室
+SEOTitle: 《大海战Ⅱ》 - 二战海战策略游戏 | 海底两万里工作室
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
+email: ocean_twilight@sea.com
+description: "《大海战Ⅱ》：基于二战的海战策略游戏，玩家需熟练操作舰艇和武器，使用精准射击击沉敌舰。支持多人对战，基于真实历史的舰炮、鱼雷、炮弹和舰艇设备，带来独特的游戏体验。"
+keyword: "海底两万里工作室, 大海战Ⅱ, 海战游戏, 二战海战, 舰艇, 舰炮, 鱼雷, 策略游戏, 多人对战, 真实历史, 游戏开发"
+url: "https://www.ocean-twilight.com"
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,12 +13,12 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+weibo_username: ocean_twilight_sina
+zhihu_username: ocean_twilight
+github_username: ocean_twilight_repo
+twitter_username: ocean_twilight_twitter
+#facebook_username:  ocean_twilight
+#linkedin_username:  ocean_twilight_linkedin
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: ocean_twilight
 
 # Netease settings
 netease_comment: false
@@ -70,12 +70,12 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: www.ocean-twilight.com
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "《大海战Ⅱ》是一款基于二战的海战策略游戏，玩家需要熟练操作舰艇和武器，使用精准射击击沉敌舰。支持多人模式，基于真实历史的舰炮、鱼雷、炮弹和舰艇设备，提供独特的游戏体验。"
+sidebar-avatar: https://game-assets.ocean-twilight.com/images/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
