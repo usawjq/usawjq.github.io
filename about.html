@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-description: "「他单纯只想把日子过得不浪费」"
+title: "关于"
+description: "「掌握大海战的人，才能掌握世界」"
 header-img: "img/bg-me-2022.jpg"
 header-mask: 0.3
 multilingual: true
@@ -9,18 +9,25 @@ multilingual: true
 
 {% include multilingual-sel.html %}
 
-<!-- Chinese Version -->
+<!-- 中文版本 -->
 <div class="zh post-container">
     {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
     {{ about_zh | markdownify }}
 </div>
 
-<!-- English Version -->
+<!-- 英文版本 -->
 <div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {% capture about_en %}
+    For your Naval Commander Fixation, there are over 500 unique World War II era ship types to choose from. From the humble destroyer to the epic BB6 battleship, you can experience everything from destroyers, battlecruisers, battleships, aircraft carriers, submarines, and more. Each type has its own characteristics and roles!
+
+    Choose from the USA, UK, France, USSR, and Italy. Start your Naval career in "舰队使命" with these countries, each having unique strengths and weaknesses to maintain a stable balance in the game. More countries and ships will be added in the future.
+
+    With over a dozen combat modes and fleet battle systems, experience the thrill and honor of coordinated ship-to-ship combat.
+
+    More combat modes and features will continue to be added to ensure "舰队使命" is always the best naval tactical simulation game.
+    {% endcapture %}
     {{ about_en | markdownify }}
 </div>
-
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
