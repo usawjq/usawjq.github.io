@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "太平洋战争　1941-1945"
-author:       "Hux"
+author:       "king"
 header-style: text
 catalog:      true
 tags:
